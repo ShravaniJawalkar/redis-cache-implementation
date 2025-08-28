@@ -20,7 +20,7 @@ repositories {
 
 dependencies {
     implementation 'org.springframework.boot:spring-boot-starter-data-redis'
-    implementation 'io.lettuce.core:lettuce-core:6.3.2' //provide default redis client for spring boot
+    implementation 'io.lettuce:lettuce-core:6.6.0.BETA4' // Updated to latest available version in Maven Central
     implementation 'org.springframework.boot:spring-boot-starter-web'
     implementation 'org.projectlombok:lombok'
     implementation 'org.springframework.boot:spring-boot-starter-cache'
